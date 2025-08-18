@@ -1,3 +1,6 @@
 # ALURA-CHALLENGE-03
 
 Para realizar la parte 2 del challenge, se utiliza el archivo que resulto del proceso anterior, sobre este se los campos que contengan variables categóricas
+
+en esta etapa del proceso vamos a desarrollar dos modelos par determinar que variables son las factibles para predecir el abandono de un cliente (Churn)
+para ellos vamos a transformar las variables categóricas  a variables numéricas, luego eliminamos la variables que no aportan al eficiencia del modelo (indice, constantes, variables con baja varianza), realizado esto, realizamos el proceso de Encoding, y desarrollamos dos modelos (Regresión Logística y Random Forest), para evaluar los modelos separamos la base de datos en dos grupos (uno de entrenamiento y otro de ejercicio) en una tasa s75% y 25%, se corren los dos modelos y después se evalúa la eficiencia y problemas de ambos modelos, se determina que cada uno tiene utilidad diferente, pero ademas que el modelo Random Forest presenta problemas de Overfiting (el modelo se especializo en predecir los datos de evaluación), para correguir este problema se realiza ajuste de hiperparametros,) para terminar se evalúa la importancia de cada campo para la predicción.

@@ -1,5 +1,7 @@
 # ALURA-CHALLENGE-03
 
+El archivo de trabajo es "CHALLENGE_02_TelecomX_Latam_Parte02"
+
 Para realizar la parte 2 del challenge, se utiliza el archivo que resulto del proceso anterior, sobre este se los campos que contengan variables categóricas
 
 en esta etapa del proceso vamos a desarrollar dos modelos par determinar que variables son las factibles para predecir el abandono de un cliente (Churn)
